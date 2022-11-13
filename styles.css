@@ -1,0 +1,181 @@
+
+
+body {
+    background-color: #ffff;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: 'Roboto', arial;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header --------------- */
+.header {
+    display: flex;
+    background-color: 	#097969;
+    padding: 20px 0px 20px 100px;
+    align-items: center;
+    
+}
+
+.logo {
+    margin-right: auto;
+    color: white;
+}
+
+.header-links {
+    padding: 10px;
+    margin-left: auto;
+    padding: 0px 100px 0px 0px;  
+}
+
+.header-links a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+    padding: 10px;
+    font-family: 'Roboto', arial;
+}
+
+/* Body --------------- */
+
+.hero {
+    display: flex;
+    background-color: 	#097969;
+    justify-content: center;
+    padding: 90px;
+}
+
+.hero-main {
+    flex-basis: 400px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-right: 50px;
+    color: white;
+}
+
+.hero button {
+    display: block;
+    text-align: center;
+    width: 110px;
+    border: none;
+    background: black;
+    padding: 10px;
+    color: #fff;
+    font-family: 'Roboto', arial;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero button a {
+    color: #fff;
+    font-family: 'Roboto', arial;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero-image img {
+    width: 500px;
+    height: 350px;
+}
+
+/* Team --------------- */
+
+.team {
+    background-color: #fff;
+    align-items: center;
+}
+
+.theTeam{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.theTeam img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 4px solid black;
+    border-radius: 15px;
+    margin: 5px 20px 0px 20px;
+}
+
+/* Qoute --------------- */
+
+.qoute {
+    display: flex;
+    background-color: lightgray;
+    flex-direction: column;
+    padding: 0 200px;
+}
+
+.qoute p {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: lighter;
+    font-family: 'Roboto', arial;
+}
+
+.qoute b {
+    padding-bottom: 20px;
+    padding-right: 10px;
+    font-family: 'Roboto', arial;
+    text-align: right;
+}
+
+/* SignUp --------------- */
+
+.signUp{
+    background-color: #2E8B57;
+    margin: 50px 200px;
+    padding: 10px 80px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    border-color: none;
+}
+
+.action {
+    flex: 1;
+    text-align: left;
+}
+
+.action p {
+    color: #fff;
+    opacity: 0.7;
+    margin: 5px 30px 30px 50px;
+}
+
+h3 {
+    color: #fff;
+    font-family: 'Roboto', arial;
+    padding: 0;
+    margin: 30px 0px 0px 50px;
+}
+
+.signUp button {
+    color: #fff;
+    font-family: 'Roboto', arial;
+    border-color: #fff;
+    border-radius: 8px;
+    background-color: #009E60;
+    padding: 5px 25px;
+    font-size: 15px;
+}
+
+/* Footer --------------- */
+
+.footer {
+    background-color: #097969;
+    color: #fff;
+    font-family: 'Roboto', arial;
+}
+
